@@ -1,0 +1,115 @@
+*{
+	font-family: Sans-Serif;
+	margin: 0;
+}
+
+body{
+	background-image: url("./grfx/bg.png");
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 100%;
+}
+
+/* All Id's*/
+
+main{
+	
+	width: 760px;
+	margin: 0 auto;
+	top: 250px;
+	background-color: white;
+	padding: 20px;
+}
+
+
+main p{
+	font-size: 20px;
+}
+
+main h2{
+	margin-top: 0px;
+	padding-bottom: 20px;
+}
+
+/*Header section*/
+header{
+	
+	background-image: url("./grfx/header.jpg");
+	background-repeat: no-repeat;
+	width: 800px;
+	margin: 0 auto;
+	height: 268px;
+
+}
+
+header h1{
+	
+	margin: 0px 0px 0px 10px;
+	font-weight: bold;
+}
+
+header p{
+	
+	margin: 0px 0px 0px 10px;
+	font-size: 14px;
+}
+
+/*menu section*/
+nav{
+	position: relative;
+	top: 170px;
+}
+
+nav ul{
+	
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float:left;
+	
+
+}
+
+nav ul li{
+	padding: 0 10px 0 20px;
+	display: inline-block;
+	float: left;
+	
+}
+
+nav ul li a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	
+}
+
+nav ul li a:hover{
+	color: #a9d5d4;
+}
+
+/*classes*/
+.top-left{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.bottom-right{
+	float: right;
+	padding-left: 20px;
+	
+}
+
+.right{
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	top: 210px;
+}
+
+.bottom-left{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}

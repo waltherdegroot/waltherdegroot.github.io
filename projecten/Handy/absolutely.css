@@ -1,0 +1,162 @@
+body {
+	text-align : center;
+	font-family : Tahoma;
+	font-size : 14px;
+	background-color : black;
+	/* toe te voegen */
+}
+.all {
+	text-align : left;
+	width : 700px;
+	margin : 100px auto;
+	min-height : 400px;
+	background-image : url(bg.jpg);
+	border : 4px solid red;
+	padding-top: 200px;
+}
+
+nav{
+	position: fixed;
+	background: linear-gradient(black, black, grey);
+	border: 1px solid grey;
+	width: 100%;
+	margin: 0 auto;
+	top: 5px;
+}
+
+nav:hover{
+	background: linear-gradient(white, white, white);
+	border: 1px solid grey;
+	color: black;
+}
+
+nav a{
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+	margin-right: 40px;
+}
+
+nav:hover a{
+	color: black;
+}
+
+main{
+	background-color: rgba(255,255,255, 0.4);
+	margin: 200px 0px 0px 0px;
+	padding: 5px 10px 5px 5px;
+	
+}
+
+main h1{
+	margin: 0px;
+}
+
+main p{
+	margin: 0px;
+}
+
+#title{
+	position: absolute;
+	top: 35px;
+}
+
+#title:hover{
+	top: 25px;
+}
+
+#pincers{
+	position: absolute;
+    top: 370px;
+    right: 550px;
+}
+
+#pincers:hover{
+	top: 360px;
+}
+
+#screwdriver{
+	position: absolute;
+    top: 260px;
+    right: 550px;
+}
+
+#screwdriver:hover{
+	top: 250px;
+}
+
+#hammer{
+	position:absolute;
+	top: 35px;
+	right: 700px;
+}
+
+#hammer:hover{
+	top: 25px;
+}
+
+#saw{
+	position: absolute;
+    top: 200px;
+    left: 570px;
+}
+
+#saw:hover{
+	top: 190px;
+}
+
+#toolbox{
+	position:absolute;
+	left: 850px;
+	top: 300px;
+}
+
+#toolbox a{
+	text-decoration:none;
+	color: black;
+}
+
+#toolbox ul{
+	display:none;
+}
+
+#toolbox ul li{
+	list-style-type: none;
+	padding:10px;
+	border: 1px solid black;
+	background-color: rgba(255,255,255, 1);
+}
+
+#toolbox:hover ul{
+	position:absolute;
+	display: inline;
+    left: -45px;
+    top: 90px;
+}
+
+#toolbox li:hover{
+	background-color: rgba(242, 228, 121, 1);
+}
+
+#humanfactor{
+	color: blue;
+}
+
+#tooltip{
+	display: none;
+	width: 200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 5px;
+	position: absolute;
+	top: 595px;
+    right: 510px;
+	border-radius: 15px;
+	text-align: left;
+}
+
+#humanfactor:hover #tooltip{
+	display:inline;
+}
