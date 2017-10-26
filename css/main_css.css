@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+}
+
+body{
+	/*background-image: url("../media/images/bg.jpg");*/
+	background-color: rgb(75, 75, 75);
+}
+
+main{
+	margin: 0 auto;
+	width:1600px;
+	min-height:900px;
+	/*background-color: rgba(75, 75, 75, 0.8);*/
+}
+
+nav ul{
+	position: absolute; 
+    left: -100px; 
+    transition: 0.3s; 
+    padding: 30px; 
+    min-width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+	 background-color: #4CAF50;
+}
+
+nav ul:hover{
+	left: 2px;
+}
+
+nav ul li{
+	padding: 10px 50px 10px 10px;
+	list-style: none;
+	font-family: Verdana;
+	font-size: 16px;
+}
