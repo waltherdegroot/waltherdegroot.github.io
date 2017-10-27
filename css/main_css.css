@@ -11,8 +11,34 @@ main{
 	margin: 0 auto;
 	width:1600px;
 	min-height:900px;
-	/*background-color: rgba(75, 75, 75, 0.8);*/
+	background-color: white;
+	margin-top:50px;
 }
+
+header{
+	top: 0px;
+}
+
+nav ul li{
+	padding: 10px 50px 10px 10px;
+	list-style: none;
+	font-family: Verdana;
+	font-size: 16px;
+}
+
+nav ul li .active{
+	padding: 10px 50px 10px 10px;
+	list-style: none;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*Popout menu*/
 
 #popout{
 	position: fixed; 
@@ -72,21 +98,16 @@ main{
 	width: 40px;
 }
 
-nav ul li{
-	padding: 10px 50px 10px 10px;
-	list-style: none;
-	font-family: Verdana;
-	font-size: 16px;
+/*Flexbox*/
+
+.flex_item{
+	width: 600px;
+	margin: 50px;
+	background-color: gray;
+	border-radius: 20px;
+	text-align: center;
 }
 
-nav ul li .active{
-	padding: 10px 50px 10px 10px;
-	list-style: none;
-	font-family: Verdana;
-	font-size: 20px;
-}
-
-a{
-	text-decoration: none;
-	color: black;
+.flex_item img{
+	width: 600px;
 }
