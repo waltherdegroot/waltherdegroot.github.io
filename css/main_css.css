@@ -13,6 +13,8 @@ main{
 	min-height:900px;
 	background-color: white;
 	margin-top:50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 header{
@@ -109,5 +111,5 @@ a{
 }
 
 .flex_item img{
-	width: 600px;
+	width: 580px;
 }
