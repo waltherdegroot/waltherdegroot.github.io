@@ -17,6 +17,13 @@ main{
 	padding-bottom: 25px;
 }
 
+footer{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 header{
 	top: 0px;
 }
@@ -112,4 +119,5 @@ a{
 
 .flex_item img{
 	width: 580px;
+	border-radius: 10px;
 }
