@@ -47,6 +47,29 @@ a{
 	color: black;
 }
 
+/*Page Nav*/
+
+.page_nav{
+	display: inline-block;
+	background-color: rgba(80,80,80, 0.3);
+	border-radius: 5px;
+	position: static;
+	bottom: 5px;
+}
+
+.page_nav a{
+	color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.page_nav a.active{
+	background-color: #4CAF50;
+	border-radius: 5px;
+	
+}
+
 /*Popout menu*/
 
 #popout{
