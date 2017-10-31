@@ -1,31 +1,68 @@
+<!doctype html>
 <html>
-    <body>
-        <canvas id="canvas" width="800" height="600"></canvas>
-        <script src="./robot-arm.js"></script>
-		<script>
-		  var canvas = document.getElementById("canvas");
-		  var robotArm = new RobotArm(canvas);
+	<head>
+		<title>Digitaal PortFolio</title>
+		<link rel="stylesheet" type="text/css" href="../css/main_css.css">
+	</head>
+	<body>
+		<header id="popout">
+			<h1>Opdracht 8</h1>
+			<img src="../media/images/menu_icoon.png" alt="menu icoon">
+			<nav>
+				<ul>
+					<li><a href="./index.html" class="active">Home</a></li>
+					<li><a href="./projecten.html">Projecten</a></li>
+					<li><a href="./persoonlijke_info.html">Persoonlijke Informatie</a></li>
+					<li><a href="./opleiding.html">Opleiding</a></li>
+					<li><a href="./beroep.html">Beroep</a></li>
+					<li class="dropdown_button">
+						Javascript
+						<a href="./opdracht1.html" class="dropdown_content">Opdracht 1</a>
+						<a href="./opdracht2.html" class="dropdown_content">Opdracht 2</a>
+						<a href="./opdracht3.html" class="dropdown_content">Opdracht 3</a>
+						<a href="./opdracht4.html" class="dropdown_content">Opdracht 4</a>
+						<a href="./opdracht5.html" class="dropdown_content">Opdracht 5</a>
+						<a href="./opdracht6.html" class="dropdown_content">Opdracht 6</a>
+						<a href="./opdracht7.html" class="dropdown_content">Opdracht 7</a>
+						<a href="./opdracht8.html" class="dropdown_content">Opdracht 8</a>
+						<a href="./opdracht9.html" class="dropdown_content">Opdracht 9</a>
+						<a href="./opdracht10.html" class="dropdown_content">Opdracht 10</a>
+						<a href="./opdracht11.html" class="dropdown_content">Opdracht 11</a>
+						<a href="./opdracht12.html" class="dropdown_content">Opdracht 12</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<canvas id="canvas" width="800" height="600"></canvas>
+			<script src="./robot-arm.js"></script>
+			<script>
+			  var canvas = document.getElementById("canvas");
+			  var robotArm = new RobotArm(canvas);
 
-		  robotArm.loadLevel("exercise 9");
+			  robotArm.loadLevel("exercise 9");
 
-		  // Je eigen code plaats je hier.
-		  var b=1;
-		  for(var i = 0; i<4; i++){
-			for(var g = 0; g<b; g++){
-				robotArm.grab();
-				for(var j =0; j<5; j++ ){
+			  // Je eigen code plaats je hier.
+			  var b=1;
+			  for(var i = 0; i<4; i++){
+				for(var g = 0; g<b; g++){
+					robotArm.grab();
+					for(var j =0; j<5; j++ ){
+						robotArm.moveRight();
+					}
+					robotArm.drop();
+					for(var j =0; j<5; j++ ){
+						robotArm.moveLeft();
+						}
+					}
+					b++;
 					robotArm.moveRight();
 				}
-				robotArm.drop();
-				for(var j =0; j<5; j++ ){
-					robotArm.moveLeft();
-					}
-				}
-				b++;
-				robotArm.moveRight();
-			}
-						  robotArm.run();
-		</script>
-
+							  robotArm.run();
+			</script>
+		</main>
+		<footer>
+			&copy; Walther de Groot | Student ICT Davinci College
+		</footer>
     </body>
 </html>
