@@ -416,6 +416,11 @@ a{
 		flex-direction: column;
 		margin: 0px auto;
 	}
+	
+	#canvas{
+		width: 90%;
+		margin: 5%;
+	}
 }
 
 /*================================================Phones================================================*/
@@ -549,10 +554,12 @@ a{
 		color: white; 
 		border-radius: 0 10px 10px 0; 
 		background-color: #4CAF50;
+		visibility: hidden;
 	}
 
 	#popout_pers_info:hover{
 		left: 0px;
+		visibility: visible;
 	}
 
 	#popout_pers_info h1{
@@ -564,6 +571,7 @@ a{
 		top: -48px;
 		left: 208px;
 		width: 40px;
+		visibility: visible;
 	}
 
 	#popout_opdr{
@@ -599,16 +607,18 @@ a{
 	/*Flexbox*/
 
 	.flex_item{
-		width: 250px;
-		margin: 10px;
+		width: 90%;
+		margin: 5px auto;
+		margin-top: 15px;
 		background-color: gray;
 		border-radius: 20px;
 		text-align: center;
 	}
 
 	.flex_item img{
-		width: 230px;
+		width: 95%;
 		border-radius: 10px;
+		margin: 5px;
 	}
 
 	#main_flex{
@@ -634,6 +644,7 @@ a{
 	}
 	
 	#canvas{
-		width: 30%px;
+		width: 90%;
+		margin: 5%;
 	}
 }
