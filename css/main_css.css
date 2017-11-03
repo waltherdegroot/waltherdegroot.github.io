@@ -29,6 +29,15 @@ header{
 }
 
 nav ul li{
+	font-size: 16px;
+}
+
+nav ul li .active{
+	font-size: 18px;
+}
+
+
+nav ul li{
 	padding: 10px 50px 10px 10px;
 	list-style: none;
 	font-family: Verdana;
@@ -59,9 +68,9 @@ a{
 
 .page_nav a{
 	color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
 }
 
 .page_nav a.active{
@@ -74,15 +83,15 @@ a{
 
 #popout{
 	position: fixed; 
-    left: -210px; 
-    transition: 0.1s; 
-    padding: 5px; 
-    width: 250px; 
+	left: -210px; 
+	transition: 0.1s; 
+	padding: 5px; 
+	width: 250px; 
 	height: 100%;
-    text-decoration: none; 
-    font-size: 20px; 
-    color: white; 
-    border-radius: 0 10px 10px 0; 
+	text-decoration: none; 
+	font-size: 20px; 
+	color: white; 
+	border-radius: 0 10px 10px 0; 
 	background-color: #4CAF50;
 }
 
@@ -103,15 +112,15 @@ a{
 
 #popout_pers_info{
 	position: fixed; 
-    left: -210px; 
-    transition: 0.1s; 
-    padding: 5px; 
-    width: 250px; 
+	left: -210px; 
+	transition: 0.1s; 
+	padding: 5px; 
+	width: 250px; 
 	height: 100%;
-    text-decoration: none; 
-    font-size: 20px; 
-    color: white; 
-    border-radius: 0 10px 10px 0; 
+	text-decoration: none; 
+	font-size: 20px; 
+	color: white; 
+	border-radius: 0 10px 10px 0; 
 	background-color: #4CAF50;
 }
 
@@ -132,15 +141,15 @@ a{
 
 #popout_opdr{
 	position: fixed; 
-    left: -235px; 
-    transition: 0.1s; 
-    padding: 5px; 
-    width: 275px; 
+	left: -235px; 
+	transition: 0.1s; 
+	padding: 5px; 
+	width: 275px; 
 	height: 100%;
-    text-decoration: none; 
-    font-size: 20px; 
-    color: white; 
-    border-radius: 0 10px 10px 0; 
+	text-decoration: none; 
+	font-size: 20px; 
+	color: white; 
+	border-radius: 0 10px 10px 0; 
 	background-color: #4CAF50;
 }
 
@@ -159,22 +168,6 @@ a{
 	width: 40px;
 }
 
-.dropdown_button{
-	color: black;
-}
-
-.dropdown_content{
-	display: none;
-	padding: 10px;
-}
-
-.dropdown_content:hover{
-	background-color: #55ba59;
-}
-
-.dropdown_button:hover .dropdown_content{
-	display:inline-block;
-}
 
 /*Flexbox*/
 
@@ -211,4 +204,436 @@ a{
 	display: flex;
 	flex-direction: column;
 	margin: 15px;
+}
+
+/*================================================Tablets================================================*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	*{
+		margin: 0px;
+	}
+
+	body{
+		/*background-image: url("../media/images/bg.jpg");*/
+		background-color: rgb(75, 75, 75);
+	}
+
+	main{
+		margin: 0 auto;
+		width:85%;
+		min-height:90%;
+		background-color: white;
+		margin-top:50px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	footer{
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	header{
+		top: 0px;
+	}
+
+	nav ul li{
+		font-size: 16px;
+	}
+
+	nav ul li .active{
+		font-size: 18px;
+	}
+
+
+	nav ul li{
+		padding: 10px 50px 10px 10px;
+		list-style: none;
+		font-family: Verdana;
+		font-size: 16px;
+	}
+
+	nav ul li .active{
+		padding: 10px 20px 10px 10px;
+		list-style: none;
+		font-family: Verdana;
+		font-size: 18px;
+	}
+
+	a{
+		text-decoration: none;
+		color: black;
+	}
+
+	/*Page Nav*/
+
+	.page_nav{
+		display: inline-block;
+		background-color: rgba(80,80,80, 0.3);
+		border-radius: 5px;
+		position: static;
+		bottom: 5px;
+	}
+
+	.page_nav a{
+		color: black;
+		float: left;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+
+	.page_nav a.active{
+		background-color: #4CAF50;
+		border-radius: 5px;
+		
+	}
+
+	/*Popout menu*/
+
+	#popout{
+		position: fixed; 
+		left: -210px; 
+		transition: 0.1s; 
+		padding: 5px; 
+		width: 250px; 
+		height: 100%;
+		text-decoration: none; 
+		font-size: 20px; 
+		color: white; 
+		border-radius: 0 10px 10px 0; 
+		background-color: #4CAF50;
+	}
+
+	#popout:hover{
+		left: 0px;
+	}
+
+	#popout h1{
+		border-bottom: 2px solid black;
+	}
+
+	#popout img{
+		position: relative;
+		top: -48px;
+		left: 208px;
+		width: 40px;
+	}
+
+	#popout_pers_info{
+		position: fixed; 
+		left: -210px; 
+		transition: 0.1s; 
+		padding: 5px; 
+		width: 250px; 
+		height: 100%;
+		text-decoration: none; 
+		font-size: 20px; 
+		color: white; 
+		border-radius: 0 10px 10px 0; 
+		background-color: #4CAF50;
+	}
+
+	#popout_pers_info:hover{
+		left: 0px;
+	}
+
+	#popout_pers_info h1{
+		border-bottom: 2px solid black;
+	}
+
+	#popout_pers_info img{
+		position: relative;
+		top: -48px;
+		left: 208px;
+		width: 40px;
+	}
+
+	#popout_opdr{
+		position: fixed; 
+		left: -235px; 
+		transition: 0.1s; 
+		padding: 5px; 
+		width: 275px; 
+		height: 100%;
+		text-decoration: none; 
+		font-size: 20px; 
+		color: white; 
+		border-radius: 0 10px 10px 0; 
+		background-color: #4CAF50;
+	}
+
+	#popout_opdr:hover{
+		left: 0px;
+	}
+
+	#popout_opdr h1{
+		border-bottom: 2px solid black;
+	}
+
+	#popout_opdr img{
+		position: relative;
+		top: -48px;
+		left: 234px;
+		width: 40px;
+	}
+
+
+	/*Flexbox*/
+
+	.flex_item{
+		width: 600px;
+		margin: 20px;
+		background-color: gray;
+		border-radius: 20px;
+		text-align: center;
+	}
+
+	.flex_item img{
+		width: 580px;
+		border-radius: 10px;
+	}
+
+	#main_flex{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#main_flex main{
+		display: flex;
+		flex-direction: column;	
+	}
+
+	#column_1{
+		display: flex;
+		flex-direction: column;
+		margin: 0px auto;
+	}
+
+	#column_2{
+		display: flex;
+		flex-direction: column;
+		margin: 0px auto;
+	}
+}
+
+/*================================================Phones================================================*/
+
+@media screen and (max-width: 768px) {
+	*{
+		margin: 0px;
+	}
+
+	body{
+		/*background-image: url("../media/images/bg.jpg");*/
+		background-color: rgb(75, 75, 75);
+	}
+
+	main{
+		margin: 0 auto;
+		/*margin-left: 55px;*/
+		width:85%;
+		min-height:90%;
+		background-color: white;
+		margin-top:50px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	footer{
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	header{
+		top: 0px;
+	}
+
+	nav ul li{
+		font-size: 16px;
+	}
+
+	nav ul li .active{
+		font-size: 18px;
+	}
+
+
+	nav ul li{
+		padding: 10px 50px 10px 10px;
+		list-style: none;
+		font-family: Verdana;
+		font-size: 16px;
+	}
+
+	nav ul li .active{
+		padding: 10px 20px 10px 10px;
+		list-style: none;
+		font-family: Verdana;
+		font-size: 18px;
+	}
+
+	a{
+		text-decoration: none;
+		color: black;
+	}
+
+	/*Page Nav*/
+
+	.page_nav{
+		display: inline-block;
+		background-color: rgba(80,80,80, 0.3);
+		border-radius: 5px;
+		position: static;
+		bottom: 5px;
+	}
+
+	.page_nav a{
+		color: black;
+		float: left;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+
+	.page_nav a.active{
+		background-color: #4CAF50;
+		border-radius: 5px;
+		
+	}
+
+	/*Popout menu*/
+
+	#popout{
+		position: fixed; 
+		left: -210px; 
+		transition: 0.1s; 
+		padding: 5px; 
+		width: 250px; 
+		height: 100%;
+		text-decoration: none; 
+		font-size: 20px; 
+		color: white; 
+		border-radius: 0 10px 10px 0; 
+		visibility: hidden;
+	}
+
+	#popout:hover{
+		left: 0px;
+		background-color: #4CAF50;
+		visibility:visible;
+	}
+
+	#popout h1{
+		border-bottom: 2px solid black;
+	}
+
+	#popout img{
+		position: relative;
+		top: -48px;
+		left: 208px;
+		width: 40px;
+		visibility: visible;
+	}
+
+	#popout_pers_info{
+		position: fixed; 
+		left: -210px; 
+		transition: 0.1s; 
+		padding: 5px; 
+		width: 250px; 
+		height: 100%;
+		text-decoration: none; 
+		font-size: 20px; 
+		color: white; 
+		border-radius: 0 10px 10px 0; 
+		background-color: #4CAF50;
+	}
+
+	#popout_pers_info:hover{
+		left: 0px;
+	}
+
+	#popout_pers_info h1{
+		border-bottom: 2px solid black;
+	}
+
+	#popout_pers_info img{
+		position: relative;
+		top: -48px;
+		left: 208px;
+		width: 40px;
+	}
+
+	#popout_opdr{
+		position: fixed; 
+		left: -235px; 
+		transition: 0.1s; 
+		padding: 5px; 
+		width: 275px; 
+		height: 100%;
+		text-decoration: none; 
+		font-size: 20px; 
+		color: white; 
+		border-radius: 0 10px 10px 0; 
+		background-color: #4CAF50;
+	}
+
+	#popout_opdr:hover{
+		left: 0px;
+	}
+
+	#popout_opdr h1{
+		border-bottom: 2px solid black;
+	}
+
+	#popout_opdr img{
+		position: relative;
+		top: -48px;
+		left: 234px;
+		width: 40px;
+	}
+
+
+	/*Flexbox*/
+
+	.flex_item{
+		width: 250px;
+		margin: 10px;
+		background-color: gray;
+		border-radius: 20px;
+		text-align: center;
+	}
+
+	.flex_item img{
+		width: 230px;
+		border-radius: 10px;
+	}
+
+	#main_flex{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#main_flex main{
+		display: flex;
+		flex-direction: column;	
+	}
+
+	#column_1{
+		display: flex;
+		flex-direction: column;
+		margin: 5px auto;
+	}
+
+	#column_2{
+		display: flex;
+		flex-direction: column;
+		margin: 5px auto;
+	}
+	
+	#canvas{
+		width: 30%px;
+	}
 }
