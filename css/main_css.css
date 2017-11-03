@@ -9,7 +9,7 @@ body{
 
 main{
 	margin: 0 auto;
-	width:1600px;
+	width:90%;
 	min-height:900px;
 	background-color: white;
 	margin-top:50px;
@@ -172,15 +172,15 @@ a{
 /*Flexbox*/
 
 .flex_item{
-	width: 600px;
-	margin: 50px;
+	width: 95%;
+	margin: 20px;
 	background-color: gray;
 	border-radius: 20px;
 	text-align: center;
 }
 
 .flex_item img{
-	width: 580px;
+	width: 98%;
 	border-radius: 10px;
 }
 
@@ -383,7 +383,7 @@ a{
 	/*Flexbox*/
 
 	.flex_item{
-		width: 600px;
+		width: 95%;
 		margin: 20px;
 		background-color: gray;
 		border-radius: 20px;
@@ -391,7 +391,7 @@ a{
 	}
 
 	.flex_item img{
-		width: 580px;
+		width: 98%;
 		border-radius: 10px;
 	}
 
