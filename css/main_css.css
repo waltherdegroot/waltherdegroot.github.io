@@ -586,10 +586,12 @@ a{
 		color: white; 
 		border-radius: 0 10px 10px 0; 
 		background-color: #4CAF50;
+		visibility: hidden;
 	}
 
 	#popout_opdr:hover{
 		left: 0px;
+		visibility: visible;
 	}
 
 	#popout_opdr h1{
@@ -601,6 +603,7 @@ a{
 		top: -48px;
 		left: 234px;
 		width: 40px;
+		visibility: visible;
 	}
 
 
