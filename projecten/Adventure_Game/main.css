@@ -1,0 +1,206 @@
+* {
+	font-family: arial;
+}
+
+body{
+	background-image: url("./images/police_login.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+header{
+	
+}
+
+main{
+	width: 1150px;
+	min-height: 700px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#level_name{
+	color: white;
+	text-decoration: underline;
+}
+
+#post_it{
+    width: 250px;
+}
+#password_post_it{
+	position: relative;
+    left: 1285px;
+    top: -84px;
+    width: 250px;
+}
+
+#password_post_it p{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+#start_btn{
+    position: absolute;
+    right: 29px;
+    bottom: 223px;
+    padding-right: 50px;
+    font-size: 32px;
+    padding-left: 50px;
+}
+
+#usernameTextBox{
+	background-color: lightblue;
+    border: none;
+    position: absolute;
+    right: 200px;
+    top: 194px;
+    width: 669px;
+    height: 68px;
+	font-size: 50px;
+}
+
+#passwordTextBox{
+	background-color: lightblue;
+    border: none;
+    position: absolute;
+    right: 200px;
+    top: 305px;
+    width: 669px;
+    height: 68px;
+	font-size: 50px;
+}
+
+#story{
+	background-color: #ffffff73;
+	font-size: 25px;
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 250px;
+	left: 296px;
+	border: 2px solid black;
+	border-radius: 9px;
+	padding: 5px;
+}
+
+#task_bar{
+	position:absolute;
+	left: -385px;
+    bottom: -169px;
+	display: none;
+}
+
+#police_badge{
+	display: none;
+}
+
+#police_badge_img{
+	    margin-left: 424px;
+}
+
+#police_badge_username{
+	font-size: 20px;
+	color: white;
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+}
+
+#suspect_file_container{
+	position: absolute;
+	display: none;
+	right: 1450px;
+	bottom: 530px;
+}
+
+#case_file_map{
+	height: 60px;
+}
+
+#case_file_text{
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+	color: white;
+}
+
+#image_container_1{
+	position: absolute;
+	display: none;
+}
+
+#image_container_2{
+	position: absolute;
+	display: none;
+}
+
+#image_container_3{
+	position: absolute;
+	display: none;
+}
+
+#image_1{
+	width: 50px;
+}
+
+#image_2{
+	width: 50px;
+}
+
+#image_3{
+	width: 50px;
+}
+
+#image_1_text{
+	text-align: center;
+	font-size: 18px;
+}
+
+#image_2_text{
+	text-align: center;
+	font-size: 18px;
+}
+
+#image_3_text{
+	text-align: center;
+	font-size: 18px;
+}
+
+#option_1{
+	display: none;
+	background-color: rgba(94, 98, 104, 0.5);
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#option_2{
+	display: none;
+    background-color: rgba(94, 98, 104, 0.5);
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#option_3{
+	display: none;
+	background-color: rgba(94, 98, 104, 0.5);
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#option_4{
+	display: none;
+	background-color: rgba(94, 98, 104, 0.5);
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#button_container{
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+}
